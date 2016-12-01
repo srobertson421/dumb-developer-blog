@@ -1,0 +1,29 @@
+{
+  "name": "dumb-developer-blog",
+  "version": "0.0.1",
+  "description": "A MEAN stack blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srobertson421/dumb-developer-blog.git"
+  },
+  "keywords": [
+    "blog",
+    "dumb",
+    "developer"
+  ],
+  "author": "srobertson421",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srobertson421/dumb-developer-blog/issues"
+  },
+  "homepage": "https://github.com/srobertson421/dumb-developer-blog#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.1"
+  }
+}
