@@ -1,2 +1,2 @@
 # dumb-developer-blog
-Blog built with MEAN stack
+Blog built with VEMN stack
