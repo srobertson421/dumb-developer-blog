@@ -4,6 +4,7 @@ import VueRouter from 'vue-router';
 import Navbar from './components/Navbar.vue';
 import Home from './pages/Home.vue';
 import About from './pages/About.vue';
+import Admin from './pages/Admin.vue';
 
 Vue.use(VueRouter);
 
@@ -22,6 +23,11 @@ const routes = [
     path: '/about',
     name: 'aboutRoute',
     component: About
+  },
+  {
+    path: '/admin',
+    name: 'adminRoute',
+    component: Admin
   }
 ]
 

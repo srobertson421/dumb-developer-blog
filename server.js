@@ -10,6 +10,9 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+app.use('/api/posts', require('./controllers/posts.js'));
+app.use('/api/tags', require('./controllers/tags.js'));
+
 app.get('/*', function(req, res) {
   res.sendFile(__dirname + '/public/index.html');
 });

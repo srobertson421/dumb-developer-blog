@@ -1,14 +1,16 @@
 <template>
-  <h1>Home</h1>
+  <blog-list></blog-list>
 </template>
 
 <script>
+  import BlogList from '../components/BlogList.vue';
   export default {
     name: 'homePage',
+    components: {
+      BlogList
+    },
     data() {
-      return {
-        
-      }
+      return {}
     }
   }
 </script>
